@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>CSCI E-63 Final Project</title>
+        <link id="favicon" rel="shortcut icon" href="assets/favicon.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Matthew Bullen" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css" />
+        <link href="css/normalize.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <article id="content">
+        
+            <h1>CSCI E-63 Final Project</h1>
+            <h4><em>Predicting Earthquake Magnitudes using Microsoft Azure ML with a Web Service API</em></h4>
+            
+            <div id="svg">
+                <div id="loading">
+                    <img src="assets/loading.gif" alt="Loading . . .">
+                </div>
+            </div>
+             
+            <div id="predict" style="display: none;">
+        		<input type="number" name="magError" placeholder="Magnitude Error" class="predict-input" id="magError"/>
+                <input type="number" name="depth" placeholder="Depth" class="predict-input" id="depth"/>
+                <input type="number" name="depthError" placeholder="Depth Error" class="predict-input" id="depthError"/>
+                <button class="predict-input" id="get-prediction">Predict Magnitude</button>
+            </div>
+
+        </article>
+        
+        <script src="js/jquery-2.2.3.min.js"> </script>
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"> </script>
+        <script src="js/d3.v3.min.js"> </script>
+        <script src="js/main.js"> </script>
+    
+    </body>
+    
+</html>

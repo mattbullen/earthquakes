@@ -1,0 +1,91 @@
+/* Page Elements */
+
+body {
+    font-family: Lato, Arial, sans-serif;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#content h4 {
+    text-align: center;
+}
+
+#loading {
+    width: 220px;
+    margin: 200px auto 0 auto;
+}
+
+#tooltipContainer {
+    cursor: pointer;
+    background: #fff;
+}
+
+.bold {
+    width: 120px;
+    font-weight: bold;
+}
+
+.tooltipLine {
+    width: 100% !important;
+}
+
+.tooltipEntry {
+    float: left;
+    margin: 0 0 10px 0 !important;
+    text-transform: capitalize;
+}
+
+.right {
+    width: 250px;
+    text-align: right;
+}
+
+#predict {
+    padding-left: 337px;
+    margin: -27px auto 100px auto;
+}
+
+.predict-input {
+    width: 150px;
+}
+
+.predict-input:focus {
+    outline: none;
+}
+
+/* SVG Internals */
+
+.axis path,
+.axis line {
+    fill: none !important; 
+    stroke: rgb(0, 0, 0) !important; 
+    stroke-width: 1.0 !important;
+    shape-rendering: crispEdges !important;
+}
+
+text, 
+.axis text {
+    font-size: 16px;
+    fill: rgb(0, 0, 0); 
+    stroke-width: 0;
+    shape-rendering: crispEdges !important;
+}
+
+.domain { 
+    fill: none !important; 
+    stroke: rgb(0, 0, 0) !important; 
+    stroke-width: 1.0 !important; 
+    shape-rendering: crispEdges !important;
+}
+
+.legend {
+    text-transform: capitalize;
+}
